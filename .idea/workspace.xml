@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ddb8b14-6893-4ce8-b331-526ebe4a4c1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Config/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Implementation/BoatSpeakers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Implementation/BridgeStone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Implementation/JblSpeakers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Implementation/MichelinTyres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Interfaces/Speakers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Interfaces/Tyres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Main/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Beans/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Beans/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Services/VehicleServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice1Solution/src/main/java/Config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice1Solution/src/main/java/Implementation/BoatSpeakers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Implementation/BoatSpeakers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice1Solution/src/main/java/Implementation/MichelinTyres.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Implementation/MichelinTyres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice1Solution/src/main/java/Main/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Main/Executor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,27 +40,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/home/phoenix/PracticeIOCAuto1",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "738da1787114a00c07b9946991e3cfa7"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/phoenix/PracticeIOCAuto1&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;738da1787114a00c07b9946991e3cfa7&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Implementation" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main.Executor">
     <configuration name="Executor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Executor" />
       <module name="Practice1" />
@@ -75,8 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main.Executor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Executor" />
+      <module name="Practice1Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main.Executor" />
         <item itemvalue="Application.Executor" />
       </list>
     </recent_temporary>
@@ -91,7 +104,8 @@
       <updated>1664714445652</updated>
       <workItem from="1664714447034" duration="333000" />
       <workItem from="1664714798749" duration="9333000" />
-      <workItem from="1664880626987" duration="1849000" />
+      <workItem from="1664880626987" duration="2004000" />
+      <workItem from="1664907824444" duration="4827000" />
     </task>
     <servers />
   </component>
