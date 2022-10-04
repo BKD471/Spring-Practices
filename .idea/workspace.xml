@@ -5,28 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ddb8b14-6893-4ce8-b331-526ebe4a4c1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/src/main/java/Beans/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/src/main/java/Beans/Speakers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/src/main/java/Beans/Tyres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/src/main/java/Beans/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/src/main/java/Beans/VehicleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/src/main/java/Config/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/src/main/java/main/Executor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1Solution/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice1Solution/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PracticeIOCAuto1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Config/ProjectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Implementation/BoatSpeakers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Implementation/BridgeStone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Implementation/JblSpeakers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Implementation/MichelinTyres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Interfaces/Speakers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Interfaces/Tyres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice1Solution/src/main/java/Main/Executor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,12 +48,19 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/home/phoenix/PracticeIOCAuto1",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "83f973d844ab1c97790beb3bc471cfbb"
+    "spring.configuration.checksum": "738da1787114a00c07b9946991e3cfa7"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Implementation" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Executor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Executor" />
@@ -95,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1664714445652</updated>
       <workItem from="1664714447034" duration="333000" />
-      <workItem from="1664714798749" duration="8918000" />
+      <workItem from="1664714798749" duration="9333000" />
+      <workItem from="1664880626987" duration="1849000" />
     </task>
     <servers />
   </component>
