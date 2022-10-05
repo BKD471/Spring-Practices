@@ -2,7 +2,7 @@ package Implementation;
 import Interfaces.Tyres;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component(value="BRIDGESTONE")
 public class BridgeStone  implements Tyres {
     private String name="BridgeStone";
     @Override

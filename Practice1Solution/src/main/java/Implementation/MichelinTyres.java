@@ -3,8 +3,8 @@ import Interfaces.Tyres;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Component
-@Primary
+@Component(value="MICHELIN")
+//Primary
 public class MichelinTyres implements Tyres {
     private String name="Michelin";
     @Override

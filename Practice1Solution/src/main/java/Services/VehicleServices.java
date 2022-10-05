@@ -3,31 +3,35 @@ package Services;
 import Interfaces.Speakers;
 import Interfaces.Tyres;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class VehicleServices {
 
-    @Autowired
-    private Speakers speaker;
-    @Autowired
-    private Tyres tyre;
+//    @Autowired
+//    @Qualifier("JBL")
+//      private  Speakers speaker;
+//    @Autowired
+//    @Qualifier("BRIDGESTONE")
+//      private  Tyres tyre;
+
+    private final Speakers speaker;
+    private final Tyres tyre;
+
+
+    public VehicleServices(@Qualifier("BOAT") Speakers speaker, @Qualifier("MICHELIN") Tyres tyre) {
+        this.speaker = speaker;
+        this.tyre = tyre;
+    }
 
     public Tyres getTyre() {
         return tyre;
     }
-
-    public void setTyre(Tyres tyre) {
-        this.tyre = tyre;
-    }
-
     public Speakers getSpeaker() {
         return speaker;
     }
 
-    public void setSpeaker(Speakers speaker) {
-        this.speaker = speaker;
-    }
 
     public void start() {
         String move = tyre.rotate();

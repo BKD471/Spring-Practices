@@ -2,7 +2,7 @@ package Implementation;
 import Interfaces.Speakers;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component(value="JBL")
 public class JblSpeakers implements Speakers {
     private String name = "JBL";
     @Override
